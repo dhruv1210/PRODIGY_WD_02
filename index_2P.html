@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style_2P.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="timer-display">
+            00 : 00 : 00 : 00
+        </div>
+        <ul class="laps"></ul>
+
+        <div class="action">
+            <button id="StartTimer" onclick="start()">Start</button>
+            <button id="PauseTimer" onclick="pause()">Pause</button>
+            <button id="ResetTimer" onclick="reset()">Reset</button>
+            <button id="RestartTimer" onclick="restart()">Restart</button>
+            <button id="Lap" onclick="Lap()">lap</button>
+            <button id="ResetLap" onclick="resetLap()">Reset Laps</button>
+        </div>
+        
+    </div>   
+<script src="app_2p.js"></script>
+
+<p class="signature">~Dhruv</p>
+</body>
+</html>
